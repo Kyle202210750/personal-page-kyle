@@ -1,0 +1,167 @@
+a {
+  text-decoration: none;
+}
+
+#border {
+  border-radius: 15px;
+  background: #353535;
+  padding: 10px; 
+  width: 300px;
+  height: 250px;
+  transition: all .3s ease;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+  padding: 20%;
+  border-bottom: 50px solid #ff8a00;
+  border-top: 5px solid #ff8a00;
+  background: linear-gradient(to top, #353535 0%, #ff8a00 500%);
+  animation-name: tableopening;
+  animation-duration: 0.8s;
+}
+img {
+  border-radius: 50%;
+  border: 2px solid #ff8a00;
+  transition: all .6s;
+  transform: translateY(-180px);
+  box-shadow: 0 15px 45px #171717;
+  border: 5px solid #ff8a00;
+}
+.name {
+  transform: translateY(-180px);
+}
+.about {
+  position: fixed;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  width: 150%;
+  height: 170%;
+  transform: translateX(-90px);
+  opacity: 100;
+  animation-name: about;
+  animation-duration: 1s;
+}
+.aboutheader {
+  position: fixed;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  width: 95%;
+  height: 0%;
+  transform: translateY(-5px);
+}
+#aboutline {
+  position: fixed;
+  width: 30%;
+  opacity: 100;
+  transform: translateX(118px);
+  animation-name: line1opening;
+  animation-duration: 1s;
+}
+
+.personal {
+  transform: translateX(-140px);
+  width: 180%;
+}
+.details1 {
+  text-align: left;
+  transform: translateX(70px);
+  width: 180%;
+}
+
+#personalline {
+  position: fixed;
+  width: 30%;
+  opacity: 100;
+  transform: translateX(220px);
+  animation-name: line1opening;
+  animation-duration: 1s;
+}
+
+.educational {
+  transform: translateY(30px);
+}
+.details2 {
+  text-align: left;
+  transform: translateX(-70px);
+  width: 280%;
+}
+
+#educationalline {
+  position: fixed;
+  width: 35%;
+  opacity: 100;
+  transform: translateX(115px);
+  animation-name: line1opening;
+  animation-duration: 1s;
+}
+
+.contact {
+  transform: translateY(70px);
+}
+.details3 {
+  text-align: left;
+  transform: translateX(-70px);
+  width: 280%;
+}
+
+#contactline {
+  position: fixed;
+  width: 30%;
+  opacity: 100;
+  transform: translateX(125px);
+  animation-name: line1opening;
+  animation-duration: 1s;
+}
+
+.social {
+  transform: translateY(105px);
+}
+
+#facebook {
+  color: blue;
+  transition: all .3s ease;
+}
+#facebook:hover {
+  transform: scale(1.1);
+}
+
+.social #youtube {
+  transition: all .3s ease;
+}
+.social #youtube:hover {
+  transform: scale(1.1);
+}
+
+#socialline {
+  position: fixed;
+  width: 30%;
+  opacity: 100;
+  transform: translateX(125px);
+  animation-name: line1opening;
+  animation-duration: 1s;
+}
+
+.footer {
+  transform: translateY(220px);
+}
+
+@keyframes about {
+  from {
+    opacity: 0;
+    height: 120%;
+  }
+}
+
+@keyframes tableopening {
+  from {
+    padding: 0%;
+  }
+}
+
+@keyframes line1opening {
+  from {
+    width: 0%;
+    opacity: 0;
+  }
+}

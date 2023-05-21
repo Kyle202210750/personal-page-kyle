@@ -1,0 +1,570 @@
+a {
+  text-decoration: none;
+}
+
+/**--- Joycel Silvano ---*/
+#joycelborder {
+  border-radius: 15px;
+  background: #353535;
+  border: 1px solid #515151;
+  padding: 10px; 
+  width: 300px;
+  height: 250px;
+  transition: all .3s ease;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+#joycelborder:hover {
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+  height: 480px;
+  border-bottom: 5px solid #ff8a00;
+  border-top: 5px solid #ff8a00;
+  background: linear-gradient(to bottom, #353535 0%, #ff8a00 500%);
+}
+#joycelimg {
+  border-radius: 50%;
+  border: 2px solid #ff8a00;
+  transition: all .6s;
+}
+#joycelborder:hover #joycelimg {
+  transform: translateY(-180px);
+  box-shadow: 0 15px 45px #000000;
+  border: 5px solid #ff8a00;
+}
+.joycelname {
+  transition: all .5s;
+}
+#joycelborder:hover .joycelname {
+  transform: translateY(-180px);
+  transition: all .8s;
+}
+.aboutjoycel {
+  position: fixed;
+  width: 85%;
+  height: 15%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-40px);
+}
+#joycelborder:hover .aboutjoycel {
+  opacity: 100;
+  transition: all .5s;
+}
+.about1 {
+  position: fixed;
+  width: 85%;
+  height: 0%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-150px);
+  transition: all .3s;
+}
+#joycelborder:hover .about1 {
+  opacity: 100;
+} 
+#aboutline1 {
+  position: fixed;
+  top: 220px;
+  width: 0%;
+  opacity: 0;
+  transform: translateX(80px);
+}
+#joycelborder:hover #aboutline1 {
+  width: 30%;
+  opacity: 100;
+  transition: all .8s;
+}
+
+/**--- Mark Barrozo ---*/
+#markborder {
+  border-radius: 15px;
+  background: #353535;
+  border: 1px solid #515151;
+  padding: 10px; 
+  width: 300px;
+  height: 250px;
+  transition: all .3s ease;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+#markborder:hover {
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+  height: 480px;
+  border-bottom: 5px solid #ff8a00;
+  border-top: 5px solid #ff8a00;
+  background: linear-gradient(to bottom, #353535 0%, #ff8a00 500%);
+}
+#markimg {
+  border-radius: 50%;
+  border: 2px solid #ff8a00;
+  transition: all .6s;
+  overflow: hidden;
+}
+#markborder:hover #markimg {
+  transform: translateY(-165px);
+  box-shadow: 0 15px 45px #000000;
+  border: 5px solid #ff8a00;
+}
+.markname {
+  transition: all .5s;
+}
+#markborder:hover .markname {
+  transform: translateY(-165px);
+  transition: all .8s;
+}
+.aboutmark {
+  position: fixed;
+  width: 85%;
+  height: 15%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-50px);
+}
+#markborder:hover .aboutmark {
+  opacity: 100;
+  transition: all .5s;
+}
+.about2 {
+  position: fixed;
+  width: 85%;
+  height: 0%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-150px);
+  transition: all .3s;
+}
+#markborder:hover .about2 {
+  opacity: 100;
+} 
+#aboutline2 {
+  position: fixed;
+  top: 220px;
+  width: 0%;
+  opacity: 0;
+  transform: translateX(80px);
+}
+#markborder:hover #aboutline2 {
+  width: 30%;
+  opacity: 100;
+  transition: all .8s;
+}
+
+/**--- Tyrone Barrozo ---*/
+#tyroneborder {
+  border-radius: 15px;
+  background: #353535;
+  border: 1px solid #515151;
+  padding: 10px; 
+  width: 300px;
+  height: 250px;
+  transition: all .3s ease;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+#tyroneborder:hover {
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+  height: 480px;
+  border-bottom: 5px solid #ff8a00;
+  border-top: 5px solid #ff8a00;
+  background: linear-gradient(to bottom, #353535 0%, #ff8a00 500%);
+}
+#tyroneimg {
+  border-radius: 50%;
+  border: 2px solid #ff8a00;
+  transition: all .6s;
+  overflow: hidden;
+}
+#tyroneborder:hover #tyroneimg {
+  transform: translateY(-165px);
+  box-shadow: 0 15px 45px #000000;
+  border: 5px solid #ff8a00;
+}
+.tyronename {
+  transition: all .5s;
+}
+#tyroneborder:hover .tyronename {
+  transform: translateY(-165px);
+  transition: all .8s;
+}
+.abouttyrone {
+  position: fixed;
+  width: 85%;
+  height: 15%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-40px);
+}
+#tyroneborder:hover .abouttyrone {
+  opacity: 100;
+  transition: all .5s;
+}
+.about3 {
+  position: fixed;
+  width: 85%;
+  height: 0%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-150px);
+  transition: all .3s;
+}
+#tyroneborder:hover .about3 {
+  opacity: 100;
+} 
+#aboutline3 {
+  position: fixed;
+  top: 220px;
+  width: 0%;
+  opacity: 0;
+  transform: translateX(80px);
+}
+#tyroneborder:hover #aboutline3 {
+  width: 30%;
+  opacity: 100;
+  transition: all .8s;
+}
+
+/**--- Rusty Castillo ---*/
+#rustyborder {
+  border-radius: 15px;
+  background: #353535;
+  border: 1px solid #515151;
+  padding: 10px; 
+  width: 300px;
+  height: 250px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+#rustyborder {
+  border-radius: 15px;
+  background: #353535;
+  padding: 10px; 
+  width: 300px;
+  height: 250px;
+  transition: all .3s ease;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+#rustyborder:hover {
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+  height: 480px;
+  border-bottom: 5px solid #ff8a00;
+  border-top: 5px solid #ff8a00;
+  background: linear-gradient(to bottom, #353535 0%, #ff8a00 500%);
+}
+#rustyimg {
+  border-radius: 50%;
+  border: 2px solid #ff8a00;
+  transition: all .6s;
+  overflow: hidden;
+}
+#rustyborder:hover #rustyimg {
+  transform: translateY(-165px);
+  box-shadow: 0 15px 45px #000000;
+  border: 5px solid #ff8a00;
+}
+.rustyname {
+  transition: all .5s;
+}
+#rustyborder:hover .rustyname {
+  transform: translateY(-165px);
+  transition: all .8s;
+}
+.aboutrusty {
+  position: fixed;
+  width: 85%;
+  height: 15%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-5px);
+}
+#rustyborder:hover .aboutrusty {
+  opacity: 100;
+  transition: all .5s;
+}
+.about4 {
+  position: fixed;
+  width: 85%;
+  height: 0%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-150px);
+  transition: all .3s;
+}
+#rustyborder:hover .about4 {
+  opacity: 100;
+} 
+#aboutline4 {
+  position: fixed;
+  top: 220px;
+  width: 0%;
+  opacity: 0;
+  transform: translateX(80px);
+}
+#rustyborder:hover #aboutline4 {
+  width: 30%;
+  opacity: 100;
+  transition: all .8s;
+}
+
+/**--- Kyle Alojado ---*/
+#kyleborder {
+  border-radius: 15px;
+  background: #353535;
+  border: 1px solid #515151;
+  padding: 10px; 
+  width: 300px;
+  height: 250px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+#kyleborder {
+    border-radius: 15px;
+    background: #353535;
+    padding: 10px; 
+    width: 300px;
+    height: 250px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+#kyleborder {
+  border-radius: 15px;
+  background: #353535;
+  padding: 10px; 
+  width: 300px;
+  height: 250px;
+  transition: all .3s ease;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+#kyleborder:hover {
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+  height: 480px;
+  border-bottom: 5px solid #ff8a00;
+  border-top: 5px solid #ff8a00;
+  background: linear-gradient(to bottom, #353535 0%, #ff8a00 500%);
+}
+#kyleimg {
+  border-radius: 50%;
+  border: 2px solid #ff8a00;
+  transition: all .6s;
+  overflow: hidden;
+}
+#kyleborder:hover #kyleimg {
+  transform: translateY(-165px);
+  box-shadow: 0 15px 45px #000000;
+  border: 5px solid #ff8a00
+}
+.kylename {
+  transition: all .5s;
+}
+#kyleborder:hover .kylename {
+  transform: translateY(-165px);
+  transition: all .8s;
+}
+.aboutkyle {
+  position: fixed;
+  width: 85%;
+  height: 15%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-5px);
+}
+#kyleborder:hover .aboutkyle {
+  opacity: 100;
+  transition: all .5s;
+}
+.about5 {
+  position: fixed;
+  width: 85%;
+  height: 0%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: flex-end;
+  transform: translateY(-150px);
+  transition: all .3s;
+}
+#kyleborder:hover .about5 {
+  opacity: 100;
+} 
+#aboutline5 {
+  position: fixed;
+  top: 220px;
+  width: 0%;
+  opacity: 0;
+  transform: translateX(80px);
+}
+#kyleborder:hover #aboutline5 {
+  width: 30%;
+  opacity: 100;
+  transition: all .8s;
+}
+
+.profilesmenu {
+  position: relative;
+  display: inline-block;
+	color: white;
+  background: transparent;
+  border: 1px solid #515151;
+	padding: 15px 30px;
+	line-height: 1.4;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+	transition: all .55s ease;
+}
+
+.profiles a {
+  color: white;
+}
+.profiles {
+  display: none;
+  position: absolute;
+  background-color: #353535;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 0px 0px;
+  border-radius: 15px;
+  z-index: 1;
+  transform: translateY(18px);
+}
+.profilesmenu:hover .profiles {
+  display: block;
+  padding: 12px 16px;
+}
+
+.profilesmenu:hover {
+  border: 1px solid transparent;
+  background: #353535;
+  transform: scale(1.1);
+}
+
+#joycelborder {
+  animation-name: joycelopening;
+  animation-duration: 0.8s;
+}
+
+@keyframes joycelopening {
+  from {
+    opacity: 0;
+    transform: translateY(-120px);
+    color: #ff8a00;
+  }
+}
+
+#markborder {
+  animation-name: markopening;
+  animation-duration: 1.3s;
+}
+
+@keyframes markopening {
+  from {
+    opacity: 0;
+    transform: translateY(-120px);
+    color: #ff8a00;
+  }
+}
+
+#tyroneborder {
+  animation-name: tyroneopening;
+  animation-duration: 1.7s;
+}
+
+@keyframes tyroneopening {
+  from {
+    opacity: 0;
+    transform: translateY(-120px);
+    color: #ff8a00;
+  }
+}
+
+#rustyborder {
+  animation-name: rustyopening;
+  animation-duration: 2.3s;
+}
+
+@keyframes rustyopening {
+  from {
+    opacity: 0;
+    transform: translateY(-120px);
+    color: #ff8a00;
+  }
+}
+
+#kyleborder {
+  animation-name: kyleopening;
+  animation-duration: 2.7s;
+}
+
+@keyframes kyleopening {
+  from {
+    opacity: 0;
+    transform: translateY(-120px);
+    color: #ff8a00;
+  }
+}
+
+#gclogo {
+  animation-name: gclogoopening;
+  animation-duration: 1s;
+}
+
+@keyframes gclogoopening {
+  from {
+    transform: scale(1.1);
+  }
+}
+
+#actheader {
+  animation-name: actopening;
+  animation-duration: 1s;
+}
+
+@keyframes actopening {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+    color: #ff8a00;
+  }
+}
+
+#actwelcome {
+  transform: scale(1.5);
+  opacity: 100;
+  animation-name: welcomeopening;
+  animation-duration: 2s;
+}
+
+@keyframes welcomeopening {
+    from {
+      opacity: 0;
+      transform: translateY(80px);
+    }
+}
+
+#hr1 {
+  width: 50%;
+  animation-name: hr1opening;
+  animation-duration: 1s;
+}
+
+@keyframes hr1opening {
+  from {
+    width: 0;
+  }
+}
